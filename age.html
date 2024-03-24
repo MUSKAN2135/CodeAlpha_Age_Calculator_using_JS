@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="my-auto p-4 w-screen h-screen flex flex-col justify-center items-center bg-blue-400">
+    <h1 class="text-3xl font-bold mb-6">Age Calculator</h1>
+    <div>
+      <label class="block mb-2">Date of Birth:</label>
+      <input id="dob" type="date" class="border px-2 py-1 mb-4">
+    </div>
+    <div>
+      <label class="block mb-2">Current Date:</label>
+      <input id="currentDate" type="date" class="border px-2 py-1 mb-4">
+    </div>
+    <button id="calculateBtn" class="bg-blue-900 text-white px-4 py-2 rounded">Calculate Age</button>
+    <div id="result" class="mt-4"></div>
+  </div>
+
+  
+</body>
+</html>
